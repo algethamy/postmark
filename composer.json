@@ -1,0 +1,26 @@
+{
+    "name": "cammac/postmark",
+    "description": "Built with Laravel Standalone Package Creator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nasrul Hazim",
+            "email": "nasrulhazim.m@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cammac\\Postmark\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cammac\\Postmark\\PostMarkServiceProvider"
+            ]
+        }
+    }
+}
