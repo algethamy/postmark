@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Utils;
+namespace Cammac\Postmark;
 
 use Illuminate\Mail\Transport\Transport;
 use Swift_Mime_SimpleMessage;
