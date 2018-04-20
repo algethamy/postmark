@@ -8,6 +8,7 @@ In .env file change MAIL_DRIVER to "postmark"
 
 ```
 MAIL_DRIVER=postmark
+POSTMARK_SECRET=your-api-token
 ```
 
 ## License
